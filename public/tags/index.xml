@@ -1,10 +1,91 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
-    <link>http://example.org/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <title>Tags on Bookworm - Personal Blog Template</title>
+    <link>https://digihugo.gomarcd.dev/tags/</link>
+    <description>Recent content in Tags on Bookworm - Personal Blog Template</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Feb 2021 16:56:47 +0600</lastBuildDate><atom:link href="https://digihugo.gomarcd.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diy</title>
+      <link>https://digihugo.gomarcd.dev/tags/diy/</link>
+      <pubDate>Fri, 05 Feb 2021 16:56:47 +0600</pubDate>
+      
+      <guid>https://digihugo.gomarcd.dev/tags/diy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Toy</title>
+      <link>https://digihugo.gomarcd.dev/tags/toy/</link>
+      <pubDate>Fri, 05 Feb 2021 16:56:47 +0600</pubDate>
+      
+      <guid>https://digihugo.gomarcd.dev/tags/toy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photography</title>
+      <link>https://digihugo.gomarcd.dev/tags/photography/</link>
+      <pubDate>Thu, 04 Feb 2021 16:56:47 +0600</pubDate>
+      
+      <guid>https://digihugo.gomarcd.dev/tags/photography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alarm</title>
+      <link>https://digihugo.gomarcd.dev/tags/alarm/</link>
+      <pubDate>Wed, 03 Feb 2021 16:56:47 +0600</pubDate>
+      
+      <guid>https://digihugo.gomarcd.dev/tags/alarm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clock</title>
+      <link>https://digihugo.gomarcd.dev/tags/clock/</link>
+      <pubDate>Wed, 03 Feb 2021 16:56:47 +0600</pubDate>
+      
+      <guid>https://digihugo.gomarcd.dev/tags/clock/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Balloon</title>
+      <link>https://digihugo.gomarcd.dev/tags/balloon/</link>
+      <pubDate>Tue, 02 Feb 2021 16:56:47 +0600</pubDate>
+      
+      <guid>https://digihugo.gomarcd.dev/tags/balloon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gas</title>
+      <link>https://digihugo.gomarcd.dev/tags/gas/</link>
+      <pubDate>Tue, 02 Feb 2021 16:56:47 +0600</pubDate>
+      
+      <guid>https://digihugo.gomarcd.dev/tags/gas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Food</title>
+      <link>https://digihugo.gomarcd.dev/tags/food/</link>
+      <pubDate>Mon, 25 Jan 2021 16:56:47 +0600</pubDate>
+      
+      <guid>https://digihugo.gomarcd.dev/tags/food/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gold</title>
+      <link>https://digihugo.gomarcd.dev/tags/gold/</link>
+      <pubDate>Mon, 25 Jan 2021 16:56:47 +0600</pubDate>
+      
+      <guid>https://digihugo.gomarcd.dev/tags/gold/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
