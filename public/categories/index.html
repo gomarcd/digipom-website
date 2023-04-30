@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>Categories</title>
+
+  <meta name="author" content="">
+  <meta name="description" content="  ">
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  
+  
+  <meta name="theme-name" content="bookworm-light" />
+
+  
+  
+
+
+  <!-- CSS Plugins -->
+  
+<link rel="preconnect" href="https://fonts.gstatic.com">
+
+
+
+
+<style type="text/css">/*!------------------------------------------------------------------
+PROJECT: Bookworm Hugo
+VERSION: 1.0.0
+AUTHOR: Themefisher
+AUTHOR WEBSITE: https://themefisher.com
+-------------------------------------------------------------------*/// site variables{{ with site.Params.variables }}$font-primary: '{{.font_primary}}',sans-serif; $h1:{{.h1}}; $h1-lg:{{.h1_lg}}; $h1-md:{{.h1_md}}; $h2:{{.h2}}; $h2-md:{{.h2_md}}; $h3:{{.h3}}; $h3-md:{{.h3_md}}; $h4:{{.h4}}; $h5:{{.h5}}; $h6:{{.h6}}; $white:{{.white}}; $black:{{.black}}; $dark:{{.dark}}; $gray:{{.gray}}; $light:{{.light}}; $color-primary:{{.color_primary}};{{ end }}@import 'mixins';@import 'typography';@import 'buttons';@import 'common';@import 'templates/navigation';@import 'templates/main'</style>
+  
+  </head>
+
+
+<body>
+  
+  <div class="header-height-fix"></div>
+<header class="header-nav">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <nav class="navbar navbar-expand-lg navbar-light p-0">
+          <a class="navbar-brand font-weight-bold mr-0" href="http://example.org/">            
+            
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+<strong class="text-danger">`` doesn't exist</strong>
+ 
+
+          </a>
+
+          
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navHeader" aria-controls="navHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="d-inline lab la-buromobelexperte"></i>
+            <i class="d-none las la-times"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navHeader">
+            <ul class="navbar-nav ml-auto">
+
+              
+              
+            </ul>
+            
+            
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  
+  <section class="section-sm pb-2 page-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-8 mx-auto text-center">
+
+        
+        
+        <h3 class="mb-3 text-dark font-weight-bold">Categories</h3>
+        
+        
+
+
+        <ul class="list-inline breadcrumb-menu">
+        
+        
+        <li class="list-inline-item"><a href="/">Home</a></li>
+        
+        
+        
+        <li class="list-inline-item">/ &nbsp; <a href="http://example.org/categories">Categories</a></li>
+        
+        
+        
+        
+        
+        
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+  
+  
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="col-12">
+        <ul class="list-inline taxonomies-list">
+        
+        
+        
+        
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <footer class="section-sm">
+  <div class="container">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-lg-5">
+        
+      </div>
+      <div class="col-lg-12 text-center mt-5">
+        <ul class="list-inline footer-menu mb-4">
+          
+        </ul>
+        <ul class="social-links icon-box list-unstyled list-inline font-weight-500 mb-3">
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+  
+
+
+
+
+
+<script crossorigin="anonymous" defer="defer" integrity="sha512-iPR07aLyl4i9JiszT6itqPpN0ZzvrwDBugbF6f1NV&#43;9cgToqp&#43;KX/MhbWOrVTlhnUzti4JK94WJ&#43;6SSUYeO23A==" type="application/javascript">"use strict";$(".preloader").delay(100).fadeOut(10),$(window).scroll(function(){$(window).scrollTop()>=50?$(".header-nav").addClass("header-sticky-top"):$(".header-nav").removeClass("header-sticky-top")}),$(document).ready(function(){function e(){$('[data-toggle="search"]').on("click",function(){$(".search-block").fadeIn(200),setTimeout(function(){$(".search-block").addClass("is-visible");var e=$("#search-field").val();$("#search-query").focus().val("").val(e)},250)}),$('[data-toggle="search-close"]').on("click",function(){$(".search-block").fadeOut(200).removeClass("is-visible")})}e();function t(){$(".navbar-toggler").on("click",function(){$("i").toggleClass("d-inline d-none")})}if(t(),$("#instafeed").length!==0){var n=$("#instafeed").attr("data-accessToken"),s=new Instafeed({get:"user",limit:6,resolution:"low_resolution",accessToken:n,template:'<div class="col-xl col-lg-2 col-md-3 col-sm-3 col-4"><a class="instagram-post" href="{{link}}" aria-label="instagram-post-link"><img loading="lazy" class="img-fluid" src="{{image}}" alt="instagram-image"></a></div>'});s.run()}}),$(".tab-content").find(".tab-pane").each(function(){var e=$(this).closest(".code-tabs").find(".nav-tabs"),t=$(this).attr("title");e.append('<li class="nav-item"><a class="nav-link" href="#">'+t+"</a></li>")}),$(".code-tabs ul.nav-tabs").each(function(){$(this).find("li:first").addClass("active")}),$(".code-tabs .tab-content").each(function(){$(this).find("div:first").addClass("active")}),$(".nav-tabs a").click(function(e){e.preventDefault();var t=$(this).parent(),s=t.index(),n=$(this).closest(".code-tabs"),o=n.find(".tab-pane").eq(s);n.find(".active").removeClass("active"),t.addClass("active"),o.addClass("active")}),$(".collapse").on("shown.bs.collapse",function(){$(this).parent().find(".la-plus").removeClass("la-plus").addClass("la-minus")}).on("hidden.bs.collapse",function(){$(this).parent().find(".la-minus").removeClass("la-minus").addClass("la-plus")})</script>
+
+
+
+</body>
+
+</html>
