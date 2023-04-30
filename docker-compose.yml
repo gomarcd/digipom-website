@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  hugo-build:
+    image: klakegg/hugo:latest-ext
+    volumes:
+      - ".:/src"
+
+  hugo-webserver:
+    image: nginx:alpine
+    container_name: "digipom-website"
+    restart: always
+    depends_on:
+      - hugo-build
+    volumes:
+      - ./public:/usr/share/nginx/html
+    ports:
+      - "8080:80"
